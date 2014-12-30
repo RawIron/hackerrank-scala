@@ -1,6 +1,6 @@
 
   def fibCount(end: BigInt): Array[BigInt] = {
-    val fibs = new Array[BigInt](50)
+    val fibs = new Array[BigInt](70)
     fibs(0) = 0
     fibs(1) = 1
     var j:Int = 1
@@ -13,7 +13,7 @@
     fibs
   }
 
-  val fibs = fibCount(10*1000000000)
+  val fibs = fibCount(10000000000L)
   val tests = List[BigInt](32443434, 56*647674525, 44*44444444)
 
   for (t <- tests) {

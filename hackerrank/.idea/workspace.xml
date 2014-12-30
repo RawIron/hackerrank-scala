@@ -28,21 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="is_fibo.sc" pinned="false" current-in-tab="false">
+      <file leaf-file-name="is_fibo.sc" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/is_fibo.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.621547" vertical-offset="0" max-vertical-offset="724">
-              <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zip_fib_test.sc" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/zip_fib_test.sc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.82044196" vertical-offset="0" max-vertical-offset="724">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.64640886" vertical-offset="0" max-vertical-offset="724">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -55,8 +45,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/test.sc" />
         <option value="$PROJECT_DIR$/src/acm_icpc_team.sc" />
-        <option value="$PROJECT_DIR$/src/is_fibo.sc" />
         <option value="$PROJECT_DIR$/src/zip_fib_test.sc" />
+        <option value="$PROJECT_DIR$/src/is_fibo.sc" />
       </list>
     </option>
   </component>
@@ -443,18 +433,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/is_fibo.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.621547" vertical-offset="0" max-vertical-offset="724">
-          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/zip_fib_test.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.82044196" vertical-offset="0" max-vertical-offset="724">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/is_fibo.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64640886" vertical-offset="0" max-vertical-offset="724">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>

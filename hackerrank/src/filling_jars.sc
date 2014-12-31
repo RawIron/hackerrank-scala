@@ -1,6 +1,4 @@
-
 val lineWithJarsAndMoves: Array[String] = "5 17".split(" ")
-
 val numberOfJars: Int = lineWithJarsAndMoves(0).toInt
 val numberOfMoves: Int = lineWithJarsAndMoves(1).toInt
 
@@ -21,3 +19,18 @@ for (move <- moves) {
 }
 
 println(jars.sum / numberOfJars)
+
+var total: BigInt = 0
+
+for (move <- moves) {
+  total += (move._2 - move._1 + 1) * move._3
+}
+
+println(total / numberOfJars)
+
+
+val x: Int = 2000000000
+val y: Int = 2000000
+val z: BigInt = x * y
+
+println(z)

@@ -28,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="filling_jars.sc" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/filling_jars.sc">
+      <file leaf-file-name="chocolate_feast.sc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chocolate_feast.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7327001" vertical-offset="0" max-vertical-offset="738">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.024423338" vertical-offset="0" max-vertical-offset="737">
+              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="14" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -49,12 +49,13 @@
         <option value="$PROJECT_DIR$/src/is_fibo.sc" />
         <option value="$PROJECT_DIR$/src/angry_children.sc" />
         <option value="$PROJECT_DIR$/src/filling_jars.sc" />
+        <option value="$PROJECT_DIR$/src/chocolate_feast.sc" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="-904" />
+    <option name="x" value="1665" />
+    <option name="y" value="-4" />
     <option name="width" value="1535" />
     <option name="height" value="904" />
   </component>
@@ -128,6 +129,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
+    <property name="LayoutCode.rearrangeEntriesScala" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -375,7 +377,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-904" width="1535" height="904" extended-state="6" />
+    <frame x="1665" y="-4" width="1535" height="904" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -471,8 +473,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/filling_jars.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7327001" vertical-offset="0" max-vertical-offset="738">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.53731346" vertical-offset="0" max-vertical-offset="738">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chocolate_feast.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.024423338" vertical-offset="0" max-vertical-offset="737">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="14" selection-end-column="17" />
           <folding />
         </state>
       </provider>

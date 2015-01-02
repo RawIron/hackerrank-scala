@@ -28,21 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="chocolate_feast.sc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chocolate_feast.sc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36635005" vertical-offset="0" max-vertical-offset="737">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="sherlock_squares.sc" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sherlock_squares.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7082768" vertical-offset="0" max-vertical-offset="737">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.48846677" vertical-offset="0" max-vertical-offset="737">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -500,8 +490,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sherlock_squares.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7082768" vertical-offset="0" max-vertical-offset="737">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.48846677" vertical-offset="0" max-vertical-offset="737">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>

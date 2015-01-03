@@ -1,5 +1,5 @@
 
-val digits: Int = "2".toInt
+val digits: Int = "588".toInt
 
 var fives: Int = (digits / 3) * 3
 var threes: Int = digits % 3
@@ -10,18 +10,18 @@ while (threes % 5 != 0 && fives > 0) {
 }
 
 
-var solution: String = ""
+val solution: StringBuilder = new StringBuilder()
 
 if (threes % 5 == 0) {
   for (i <- 1 to fives) {
-    solution += "5"
+    solution.append("5")
   }
 
   for (i <- 1 to threes) {
-    solution += "3"
+    solution.append("3")
   }
 } else {
-  solution = "-1"
+  solution.append("-1")
 }
 
-println(solution)
+println(solution.toString())

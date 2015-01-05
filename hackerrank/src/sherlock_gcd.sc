@@ -5,6 +5,18 @@ def gcd(x: Int, y: Int): Int = {
   4
 }
 
+def divisors(x: Int): List[Int] = {
+  def searchBackwards(dividend: Int, isDivisor: Int, divisors: List[Int]): List[Int] = {
+    if (isDivisor == 1) divisors
+    else if (dividend % isDivisor == 0) {
+      searchBackwards(dividend, isDivisor-1, isDivisor :: divisors)
+    } else {
+      searchBackwards(dividend, isDivisor-1, divisors)
+    }
+  }
+  searchBackwards(x, x/2, List.empty)
+}
+
 
 val series: Array[Int] = "22 131 210 30".split(" ").map(_.toInt)
 

@@ -1,5 +1,10 @@
 object Solution {
 
+  def printSort(sortThis: Array[Int]) = {
+    sortThis.foreach(x => print(x + " "))
+    println()
+  }
+
   def main(args: Array[String]) {
     val sortThis: Array[Int] = "2 6 9 23 4".split(" ").map(_.toInt)
 
@@ -8,14 +13,12 @@ object Solution {
 
     while (i >= 0 && sortThis(i) > elem) {
       sortThis(i+1) = sortThis(i)
-      sortThis.foreach(x => print(x + " "))
-      println()
+      printSort(sortThis)
       i -= 1
     }
 
     sortThis(i+1) = elem
-    sortThis.foreach(x => print(x + " "))
-    println()
+    printSort(sortThis)
   }
 
 }

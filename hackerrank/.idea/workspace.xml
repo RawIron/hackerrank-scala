@@ -28,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="intro.sc" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ArraysAndSorting/intro.sc">
+      <file leaf-file-name="insertion_sort_1.sc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ArraysAndSorting/insertion_sort_1.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5966851" vertical-offset="0" max-vertical-offset="724">
-              <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.5718232" vertical-offset="0" max-vertical-offset="724">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -90,6 +90,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/primes.scala" />
         <option value="$PROJECT_DIR$/src/sherlock_gcd.sc" />
         <option value="$PROJECT_DIR$/src/ArraysAndSorting/intro.sc" />
+        <option value="$PROJECT_DIR$/src/ArraysAndSorting/insertion_sort_1.sc" />
       </list>
     </option>
   </component>
@@ -659,7 +660,15 @@
     <entry file="file://$PROJECT_DIR$/src/ArraysAndSorting/intro.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5966851" vertical-offset="0" max-vertical-offset="724">
-          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+          <caret line="24" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndSorting/insertion_sort_1.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5718232" vertical-offset="0" max-vertical-offset="724">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>

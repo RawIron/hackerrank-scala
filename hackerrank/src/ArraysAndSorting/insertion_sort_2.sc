@@ -5,7 +5,7 @@ object Solution {
     println()
   }
 
-  def insert(sortThis: Array[Int], pos: Int, elem: Int) = {
+  def insertInplace(sortThis: Array[Int], pos: Int, elem: Int) = {
     var i: Int = pos
     while (i >= 0 && sortThis(i) > elem) {
       sortThis(i+1) = sortThis(i)
@@ -28,7 +28,7 @@ object Solution {
 
     while (i < sortThis.length - 1) {
       elem = sortThis(i+1)
-      insert(sortThis, i, elem)
+      insertInplace(sortThis, i, elem)
       i += 1
     }
   }

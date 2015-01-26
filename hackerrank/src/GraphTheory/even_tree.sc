@@ -62,7 +62,11 @@ object Solution {
 
     while (paths.exists(_.nonEmpty)) {
       mergeTerminal(vertices, paths)
-      totalCuts += removeEven(vertices, paths)
+      var cuts: Int = 0
+      do {
+        cuts = removeEven(vertices, paths)
+        totalCuts += cuts
+      } while (cuts > 0)
 
       println
       vertices.foreach(println)

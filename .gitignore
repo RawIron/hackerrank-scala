@@ -1,7 +1,25 @@
-*.class
-*.log
+# IntelliJ
+.idea/
+*.iml
+out/
 
-# sbt specific
+# Maven
+target/
+
+# Java
+*.class
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# text files
+*.log
+*.txt
+*.csv
+
+# sbt
 dist/*
 target/
 lib_managed/
@@ -9,5 +27,5 @@ src_managed/
 project/boot/
 project/plugins/project/
 
-# Scala-IDE specific
+# Scala-IDE
 .scala_dependencies

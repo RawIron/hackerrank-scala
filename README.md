@@ -1,8 +1,16 @@
 ## Solved Hackerrank Challenges
 
 one file per solved challenge.
+
+run with the Scala REPL command *scala*.
+```
+scala < challenge_solution.sc
+```
+
+run all tests for all solved challenges.
 ```
 ```
+
 
 ## License
 

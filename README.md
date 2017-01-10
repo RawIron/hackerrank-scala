@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/RawIron/hackerrank-scala.svg)](https://travis-ci.org/RawIron/hackerrank-scala)
+
+
 ## Solved Hackerrank Challenges
 
 It is easy to view and run all the code of the solutions within an IDE like *IntelliJ Idea*.

@@ -1,4 +1,4 @@
-object Solution {
+object EvenTree {
 
   def mergeTerminal(vertices: Array[Int], paths: Array[List[Int]]) = {
     for (i <- 0 until paths.length) {
@@ -26,32 +26,10 @@ object Solution {
     cuts
   }
 
-  def main(args: Array[String]) {
-    val numberOfVertices: Int = 20
-    val numberOfEdges: Int = 19
-    val edges: Array[(Int, Int)] = Array(
-                                  (2, 1),
-                                  (3, 1),
-                                  (4, 3),
-                                  (5, 2),
-                                  (6, 5),
-                                  (7, 1),
-                                  (8, 1),
-                                  (9, 2),
-                                  (10, 7),
-                                  (11, 10),
-                                  (12, 3),
-                                  (13, 7),
-                                  (14, 8),
-                                  (15, 12),
-                                  (16, 6),
-                                  (17, 6),
-                                  (18, 10),
-                                  (19, 1),
-                                  (20, 8))
+  def countCuts(noVertices: Int, edges: Array[(Int,Int)]): Int = {
 
-    var vertices: Array[Int] = Array.fill[Int](numberOfVertices)(1)
-    var paths: Array[List[Int]] = Array.fill[List[Int]](numberOfVertices)(List.empty)
+    var vertices: Array[Int] = Array.fill[Int](noVertices)(1)
+    var paths: Array[List[Int]] = Array.fill[List[Int]](noVertices)(List.empty)
     var totalCuts: Int = 0
 
     edges.foreach(x => {
@@ -61,10 +39,10 @@ object Solution {
     paths.foreach(println)
 
     while (paths.exists(_.nonEmpty)) {
-      mergeTerminal(vertices, paths)
+      EvenTree.mergeTerminal(vertices, paths)
       var cuts: Int = 0
       do {
-        cuts = removeEven(vertices, paths)
+        cuts = EvenTree.removeEven(vertices, paths)
         totalCuts += cuts
       } while (cuts > 0)
 
@@ -73,7 +51,39 @@ object Solution {
       paths.foreach(println)
     }
 
-    println(totalCuts)
+    totalCuts
+  }
+
+}
+
+
+object Solution {
+
+  def main(args: Array[String]) {
+    val numberOfVertices: Int = 20
+    val numberOfEdges: Int = 19
+    val edges: Array[(Int, Int)] = Array(
+    (2, 1),
+    (3, 1),
+    (4, 3),
+    (5, 2),
+    (6, 5),
+    (7, 1),
+    (8, 1),
+    (9, 2),
+    (10, 7),
+    (11, 10),
+    (12, 3),
+    (13, 7),
+    (14, 8),
+    (15, 12),
+    (16, 6),
+    (17, 6),
+    (18, 10),
+    (19, 1),
+    (20, 8))
+
+    println(EvenTree.countCuts(numberOfVertices, edges))
   }
 }
 

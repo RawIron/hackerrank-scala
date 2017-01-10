@@ -1,14 +1,21 @@
 ## Solved Hackerrank Challenges
 
-one file per solved challenge.
+It is easy to view and run all the code of the solutions within an IDE like *IntelliJ Idea*.
+Simply import the project as a *sbt project*.
 
-run with the Scala REPL command *scala*.
+There is one file per solved challenge.
+
+The source code files are in the *src/main/scala* folder.
+And the tests are in *src/test/scala*.
+
+run with the Scala REPL command.
 ```
 scala < challenge_solution.sc
 ```
 
-run all tests for all solved challenges.
+run all tests.
 ```
+sbt test
 ```
 
 

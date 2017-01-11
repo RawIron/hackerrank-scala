@@ -63,13 +63,13 @@ object EvenTree {
 object Solution {
 
   def main(args: Array[String]) {
-    val dimensions:Array[Int] = readLine().split(" ").map(_.toInt)
+    val dimensions:Array[Int] = scala.io.StdIn.readLine().split(" ").map(_.toInt)
     val numberOfVertices: Int = dimensions(0)
     val numberOfEdges: Int = dimensions(1)
 
     val edges: Array[(Int, Int)] = new Array[(Int, Int)](numberOfEdges)
     for (line <- 0 until numberOfEdges) {
-      val value: Array[Int] = readLine().split(" ").map(_.toInt)
+      val value: Array[Int] = scala.io.StdIn.readLine().split(" ").map(_.toInt)
       edges(line) = (value(0), value(1))
     }
 

@@ -3,5 +3,12 @@ language: scala
 scala:
    - 2.11.8
 
+addons:
+  apt:
+    packages:
+    - python3
+    - python3-nose
+
 script:
    - sbt ++$TRAVIS_SCALA_VERSION test
+   - nosetests

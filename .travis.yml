@@ -11,4 +11,4 @@ addons:
 
 script:
    - sbt ++$TRAVIS_SCALA_VERSION test
-   - nosetests3 ./src/main/scala/Implementation
+   - nosetests3 ./src/main/scala

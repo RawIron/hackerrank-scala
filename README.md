@@ -7,7 +7,6 @@ It is easy to view and run all the code of the solutions within an IDE like *Int
 Simply import the project as a *sbt project*.
 
 There is one file per solved challenge.
-
 The source code files are in the *src/main/scala* folder.
 And the tests are in *src/test/scala*.
 
@@ -19,6 +18,15 @@ scala < challenge_solution.sc
 run all tests.
 ```
 sbt test
+```
+
+Some of the challenges have a solution written in *Python*.
+To keep things simple the source and tests are in the same module.
+The module names start with *test_* and *nosetests* finds and runs the tests inside those modules.
+
+run all *Python* tests.
+```
+nosetests3
 ```
 
 

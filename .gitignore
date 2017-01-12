@@ -3,6 +3,12 @@
 *.iml
 out/
 
+# vim
+*.swp
+
+# python
+*.pyc
+
 # Maven
 target/
 

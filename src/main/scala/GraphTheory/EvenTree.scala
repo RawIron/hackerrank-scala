@@ -39,7 +39,7 @@ object EvenTree {
       paths(x._1 - 1) = x._2 - 1 :: paths(x._1 - 1)
       paths(x._2 - 1) = x._1 - 1 :: paths(x._2 - 1)
     })
-    paths.foreach(println)
+    // paths.foreach(println)
 
     while (paths.exists(_.nonEmpty)) {
       EvenTree.mergeTerminal(vertices, paths)
@@ -49,9 +49,9 @@ object EvenTree {
         totalCuts += cuts
       } while (cuts > 0)
 
-      println
-      vertices.foreach(println)
-      paths.foreach(println)
+      //println
+      //vertices.foreach(println)
+      //paths.foreach(println)
     }
 
     totalCuts
